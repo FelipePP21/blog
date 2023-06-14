@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Felipe Veltrnini</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#viagem">VIAGENS</a></li>
+        <li><a href="#series">SÉRIES</a></li>
+        <li><a href="#livros">LIVROS</a></li>
+        <li><a href="#contato">CONTATO</a></li>>
+      </ul>
+    </div>
+
+</nav>
+  
+<!--
+começe a programar daqui
+-->
+   <div class="container">
+    <h2 class="page-header" id="viagem">Os melhores lugares que já fui:</h2>
+
+    <center>
+      <div class="viagem_mainDiv">
+
+        <img src="arraias.jpeg">
+
+        <h4 class="text-capitalize"><kbd>Passeio com arraias nas Ilhas Cayman</kbd></h4>
+
+        <hr>
+
+        <h5 class="text-sucess text-capitalize" >Eu visitei em maio de 2022</h5>
+
+        <p class="text-muted" >Um passeio maravilhoso nas
+           aguas transparentes do caribe. Você vai ter uma experiência única: nadar com ARRAIAS. No começo,
+            tive muito medo, mas depois soltei esse sentimento e aproveitei. Foi muito legal, uma das
+             melhores experiências da minha vida!</p>
+      </div>
+
+      <div class="viagem_mainDiv">
+
+        <img src="fiori.jpeg">
+
+        <h4 class="text-capitalize"><kbd>Restaurante a beira do mar Fiori</kbd></h4>
+
+        <hr>
+
+        <h5 class="text-sucess text-capitalize" >Eu visitei em janeiro de 2023</h5>
+
+        <p class="text-muted" >Um ótimo restaunate, não só pela comida, que é muuuuito boa, mas o lugar é sensacional.
+          Um restaurante a beira do mar com uma vista maravilhosa, que se você pegar o pôr do Sol... vai se surpreender
+          com vários barqunhos à vela e um céu com um degradê de laranja pra azul. A comida também é muito boa. A maioria dos
+          pratos são de frutos do mar.
+        </p>
+      </div>
+    </center>
+  
+
+   <h2 class="page-header" id="series">Crítica de séries</h2>
+
+   <div class="bg-primary filmesHead" data-toggle="collapse" data-target="#Stranger_Things">
+    <span class="glyphicon glyphicon-film" ></span>Stranger Things<i class="fa fa-sort-desc" ></i>
+   </div>
+
+   <div id="Stranger_Things" class="colapse">
+
+    <div class="filmesText">
+      <img src="stranger_things.webp" class="img-responsive img-thumbnail">
+      <h5 class="text-success text-capitalize">Uma ótima série da Netflix
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </h5>
+      <p>É uma ótima série, com muito suspense e um pouco de terror. Eu recomendo para quem gosta de suspense e para
+        quem gosta de terror é boa. Ela está disponível na Netflix, lá tem 4 temporadas. Os episódios duram em média 1 hora. 
+      </p>
+    </div>
+   </div>
+
+   <div class="bg-primary filmesHead" data-toggle="collapse" data-target="Manisfest">
+    <span class="glyphicon glyphicon-film" ></span>Manisfest<i class="fa fa-sort-desc" ></i>
+   </div>
+
+   <div id="Manisfest" class="colapse">
+
+    <div class="filmesText">
+      <img src="828.jpeg" class="img-responsive img-thumbnail">
+      <h5 class="text-success text-capitalize">Uma ótima série da Netflix
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </h5>
+      <p>Também é uma série muito boa, com muito suspense, só que não tem muito terror. É uma série
+         viciante que indico muito. Está disponível na Netflix, com 4 temporadas. Cada episódio dura cerca de 50 minutos.
+      </p>
+    </div>
+  </div> 
+    
+  <h2 class="page-header" id="livros">Lista de livros</h2>
+    
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+      <img src="sete-desafios.jpeg" class="img-responsive">
+      <hr>
+      <a href="https://www.amazon.com.br/Sete-Desafios-Para-Ser-Rei/dp/8508153287">Sete desafios para ser rei</a> 
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+      <img src="dom-quixas.jpg" class="img-responsive">
+      <hr>
+      <a href="https://www.amazon.com.br/Era-Uma-Vez-Dom-Quixote/dp/852601014X">Era uma vez Dom Quixote</a> 
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234336.80033512088!2d-52.13285086706102!3d-23.40584673478029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd0d9132b0bf9%3A0x49a4970763bcf0e8!2sMaring%C3%A1%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1686764120916!5m2!1spt-BR!2sbr" 
+    width="600"height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <div class="contact_1" >
+
+           <a href="mailto:felipe.veltrini.programacao@gmail.com?Subject=Blog">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;felipe.veltrini.programacao@gmail</h5>
+            </a> 
+
+           <a href="https://www.instagram.com/"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;Instagram</h5>
+            </a> 
+        </div>
+</section>
+
+
+</body>
+</html>
